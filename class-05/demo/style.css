@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+#parent {
+    background-color: rgb(206, 73, 233);
+    position: relative;
+    height: 20vh;
+}
+
+#child-one {
+    background-color: rgba(100, 230, 230, 0.747);
+    /* position: fixed;
+    top: 5px; */
+    /* right: 20px; */
+    position: sticky;
+    top: 10px;
+    /* position: absolute;
+    top: 10px; */
+}
+
+#child-two {
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(238, 143, 143);
+    /* position: relative; */
+}
+
+#child-three {
+    background-color: rgb(183, 240, 197);
+    /* position: relative; */
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+}
+
+#lego {
+    font-family: 'Press Start 2P', cursive;
+}
