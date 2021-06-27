@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Grandstander", cursive;
+}
+
+header {
+    background-color: #b4aee8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffe3fe;
+    font-weight: bold;
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding: 0 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffe3fe;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#hero {
+    margin-top: 55px;
+    background-image: url("../img/backGround.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+#hero h2 {
+    color: #ffe3fe;
+    text-align: center;
+    font-weight: 900;
+    line-height: 90px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#program h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#program p {
+    padding: 0 60px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#program p a {
+    color: #93329e;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#program p a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#courses {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.Course-item {
+    background-color: #93329e;
+    height: 100px;
+    width: 19%;
+    margin-top: 10px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Course-item h3 {
+    color: #ffe3fe;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #b4aee8;
+    color: #ffe3fe;
+    padding: 20px;
+}
