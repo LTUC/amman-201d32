@@ -1,7 +1,7 @@
 'use strict';
-// Pascal Case Kitten
 
 let arrOfObjects = [];
+// Pascal Case Kitten
 function Kitten(name, interests, isGoodWithCats, isGoodWithDogs, isGoodWithKids) {
     this.name = name;
     this.interests = interests; // []
@@ -144,7 +144,7 @@ function handleSubmit(event){
 
     const withCats = event.target.withCats.checked;
     console.log(withCats);
-    
+
     const withDogs = event.target.withDogs.checked;
     console.log(withDogs);
     
