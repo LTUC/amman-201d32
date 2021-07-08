@@ -78,6 +78,7 @@ function Goat(name,source){
   this.name = name;
   this.source = source;
   this.votes = 0;
+  this.shown = 0;
   Goat.globArr.push(this);
 }
 
@@ -122,10 +123,12 @@ function renderTwoImages(){
 renderTwoImages();
 
 
+// const section = document.getElementById('sec-one');
 
+// section.addEventListener('click',handleClick);
 
-leftImageElement.addEventListener('click',handleClick);
-rightImageElement.addEventListener('click',handleClick);
+// leftImageElement.addEventListener('click',handleClick);
+// rightImageElement.addEventListener('click',handleClick);
 // 10 
 // 0
 function handleClick(event){

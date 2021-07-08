@@ -1,0 +1,23 @@
+body{
+    height: 120vh;
+    margin:0;
+}
+
+.pp {
+ width: 50%;
+ position: relative;
+ margin: 0 auto;
+
+}
+
+
+.car{
+    margin-top: 100px;
+    margin-bottom: 300px;
+    height: 500px;
+    background-image: url(https://wallpaperaccess.com/full/123993.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    box-shadow:rgba(255, 0, 0, 0.13);
+}
